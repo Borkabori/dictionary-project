@@ -6,6 +6,10 @@ export default function App() {
     <div className="App">
       <header className="App-header">
         <img src={stareyes} className="stareyes-logo" alt="stareyes" />
+        <a href="#" className="btn btn-dark">
+          {" "}
+          Hello{" "}
+        </a>
       </header>
     </div>
   );
