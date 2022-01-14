@@ -1,4 +1,3 @@
-import stareyes from "./pictures/stareyes.png";
 import Dictionary from "./Dictionary";
 import "./App.css";
 
