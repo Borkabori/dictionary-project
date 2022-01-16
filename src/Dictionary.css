@@ -1,3 +1,44 @@
+:root {
+  --color1: rgb(151, 164, 195);
+}
+
 .Dictionary {
-  text-align: center;
+  background-color: var(--color1);
+  border-radius: 25px;
+  margin: 20px auto;
+  padding: 10px;
+  width: 600px;
+}
+
+.Dictionary .mainsection {
+  background-color: var(--color1);
+  padding: 30px;
+  margin: 0px auto;
+  width: 535px;
+}
+
+.Dictionary section {
+  background-color: white;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 10%);
+  margin: 15px auto;
+  width: 535px;
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 6px 4px;
+  line-height: 30px;
+
+  border: 0px solid black;
+  border-radius: 25px;
+  color: black;
+}
+
+.Asking {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 5px;
+  color: black;
 }
