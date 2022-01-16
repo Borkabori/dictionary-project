@@ -2,16 +2,16 @@ import React from "react";
 import soundsign from "./images/soundsign.png";
 
 import "./Phonetic.css";
+import "./Meaning.css";
 
 export default function Phonetic(props) {
   console.log(props.phonetic);
   return (
-    <div className="Phonetic">
+    <span className="Phonetic">
+      <span className="Pronaunciation ton">{props.phonetic.text}</span>
       <a href={props.phonetic.audio} target="_blank" rel="noreferrer">
-        <img src={soundsign} className="Sound" alt="soundsign" />
+        <img src={soundsign} className="Sound ton" alt="soundsign" />
       </a>
-      <br />
-      <span className="Pronaunciation">{props.phonetic.text}</span>
-    </div>
+    </span>
   );
 }

@@ -2,8 +2,13 @@
   width: 40px;
   border-radius: 20px;
   transition: all 150ms ease-in-out;
+  margin-left: 15px;
 }
 
 .Sound:hover {
   border: 3px solid var(--color1);
+}
+
+.ton {
+  margin-left: 50px;
 }

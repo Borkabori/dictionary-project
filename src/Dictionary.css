@@ -12,16 +12,16 @@
 
 .Dictionary .mainsection {
   background-color: var(--color1);
-  padding: 30px;
+  padding: 30px 30px 15px;
   margin: 0px auto;
   width: 535px;
 }
 
 .Dictionary section {
   background-color: white;
-  padding: 30px;
+  padding: 20px;
   border-radius: 25px;
-  box-shadow: 0 5px 5px rgb(0 0 0 / 10%);
+  /* box-shadow: 0 5px 5px rgb(0 0 0 / 10%); */
   margin: 15px auto;
   width: 535px;
 }
@@ -30,15 +30,16 @@
   width: 100%;
   padding: 6px 4px;
   line-height: 30px;
-
+  font-style: italic;
+  font-size: 16px;
   border: 0px solid black;
   border-radius: 25px;
   color: black;
 }
 
-.Asking {
-  font-size: 16px;
-  font-style: italic;
-  margin-bottom: 5px;
-  color: black;
+.Dictionary .searchbutton {
+  width: 40px;
+  border-radius: 20px;
+  transition: all 150ms ease-in-out;
+  margin-left: 15px;
 }
