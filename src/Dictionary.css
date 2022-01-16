@@ -1,5 +1,6 @@
 :root {
   --color1: rgb(151, 164, 195);
+  --color2: white;
 }
 
 .Dictionary {
@@ -22,7 +23,7 @@
 }
 
 .Dictionary section {
-  background-color: white;
+  background-color: var(--color2);
   padding: 20px;
   border-radius: 25px;
   /* box-shadow: 0 5px 5px rgb(0 0 0 / 10%); */
@@ -35,11 +36,12 @@
   padding: 6px 4px;
   line-height: 30px;
   font-style: italic;
-  font-size: 16px;
+  font-size: 20px;
   border: 0px solid var(--color1);
   border-radius: 25px;
   color: black;
   text-align: center;
+  background-color: var(--color2);
 }
 
 /* .Dictionary .searchbutton {
