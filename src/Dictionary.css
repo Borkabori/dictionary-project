@@ -6,13 +6,17 @@
   background-color: var(--color1);
   border-radius: 25px;
   margin: 20px auto;
-  padding: 10px;
+  padding: 30px;
   width: 600px;
+}
+
+.Dictionary h1 {
+  margin-bottom: 20px;
 }
 
 .Dictionary .mainsection {
   background-color: var(--color1);
-  padding: 30px 30px 15px;
+  padding: 00px 00px 15px;
   margin: 0px auto;
   width: 535px;
 }
@@ -22,7 +26,7 @@
   padding: 20px;
   border-radius: 25px;
   /* box-shadow: 0 5px 5px rgb(0 0 0 / 10%); */
-  margin: 15px auto;
+  margin: 15px auto 0;
   width: 535px;
 }
 
@@ -32,14 +36,15 @@
   line-height: 30px;
   font-style: italic;
   font-size: 16px;
-  border: 0px solid black;
+  border: 0px solid var(--color1);
   border-radius: 25px;
   color: black;
+  text-align: center;
 }
 
-.Dictionary .searchbutton {
+/* .Dictionary .searchbutton {
   width: 40px;
   border-radius: 20px;
   transition: all 150ms ease-in-out;
   margin-left: 15px;
-}
+} */

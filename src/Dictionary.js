@@ -3,7 +3,6 @@ import axios from "axios";
 import "./Dictionary.css";
 import Results from "./Results";
 import Photos from "./Photos";
-import searchbutton from "./images/searchbutton.png";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState(null);
@@ -44,6 +43,7 @@ export default function Dictionary() {
       <div className="mainsection">
         <h1>Dictionary</h1>
         {/* <div className="Asking">What word do you want to look up?</div> */}
+
         <form onSubmit={search}>
           <input
             type="search"
@@ -52,12 +52,12 @@ export default function Dictionary() {
             placeholder={"What word do you want to look up?"}
           />
 
-          <input
-            type="image"
-            alt="Search"
-            src={searchbutton}
-            className="searchbutton"
-          ></input>
+          {/* <input
+              type="image"
+              alt="Search"
+              src={searchbutton}
+              className="searchbutton"
+            ></input> */}
         </form>
       </div>
       <Photos photos={photos} />
